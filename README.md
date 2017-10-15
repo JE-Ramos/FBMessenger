@@ -1,6 +1,6 @@
 #  Let's Build That App - Facebook Messenger
 
-Facebook Messenger App in Swift 4 based on the tutorial of Brian Voong's (@bhlvoong) [Lets Build Facebook Messenger](https://www.youtube.com/playlist?list=PL0dzCUj1L5JHGoEg41IJNk9QQ_hPWcyRo).
+Facebook Messenger App in Swift 4 based on the tutorial of Brian Voong's [Lets Build Facebook Messenger](https://www.youtube.com/playlist?list=PL0dzCUj1L5JHGoEg41IJNk9QQ_hPWcyRo).
 
 ## TODO
 1. [x] Episode 1
