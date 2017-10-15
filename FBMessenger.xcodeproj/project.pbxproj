@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3FA2A9981F93671B002E1FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2A9971F93671B002E1FFB /* AppDelegate.swift */; };
-		3FA2A99A1F93671B002E1FFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2A9991F93671B002E1FFB /* ViewController.swift */; };
-		3FA2A99D1F93671B002E1FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2A99B1F93671B002E1FFB /* Main.storyboard */; };
+		3FA2A99A1F93671B002E1FFB /* FriendsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2A9991F93671B002E1FFB /* FriendsController.swift */; };
 		3FA2A9A01F93671B002E1FFB /* FBMessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2A99E1F93671B002E1FFB /* FBMessenger.xcdatamodeld */; };
 		3FA2A9A21F93671B002E1FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2A9A11F93671B002E1FFB /* Assets.xcassets */; };
 		3FA2A9A51F93671B002E1FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2A9A31F93671B002E1FFB /* LaunchScreen.storyboard */; };
 		3FA2A9B01F93671B002E1FFB /* FBMessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2A9AF1F93671B002E1FFB /* FBMessengerTests.swift */; };
 		3FA2A9BB1F93671B002E1FFB /* FBMessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2A9BA1F93671B002E1FFB /* FBMessengerUITests.swift */; };
+		3FA2A9C91F93723F002E1FFB /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2A9C81F93723F002E1FFB /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,7 @@
 /* Begin PBXFileReference section */
 		3FA2A9941F93671B002E1FFB /* FBMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA2A9971F93671B002E1FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FA2A9991F93671B002E1FFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3FA2A99C1F93671B002E1FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA2A9991F93671B002E1FFB /* FriendsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsController.swift; sourceTree = "<group>"; };
 		3FA2A99F1F93671B002E1FFB /* FBMessenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FBMessenger.xcdatamodel; sourceTree = "<group>"; };
 		3FA2A9A11F93671B002E1FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA2A9A41F93671B002E1FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,8 @@
 		3FA2A9B61F93671B002E1FFB /* FBMessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBMessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA2A9BA1F93671B002E1FFB /* FBMessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBMessengerUITests.swift; sourceTree = "<group>"; };
 		3FA2A9BC1F93671B002E1FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA2A9C81F93723F002E1FFB /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		3FA2A9CA1F93971F002E1FFB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		3FA2A98B1F93671A002E1FFB = {
 			isa = PBXGroup;
 			children = (
+				3FA2A9CA1F93971F002E1FFB /* README.md */,
 				3FA2A9961F93671B002E1FFB /* FBMessenger */,
 				3FA2A9AE1F93671B002E1FFB /* FBMessengerTests */,
 				3FA2A9B91F93671B002E1FFB /* FBMessengerUITests */,
@@ -100,12 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				3FA2A9971F93671B002E1FFB /* AppDelegate.swift */,
-				3FA2A9991F93671B002E1FFB /* ViewController.swift */,
-				3FA2A99B1F93671B002E1FFB /* Main.storyboard */,
+				3FA2A9991F93671B002E1FFB /* FriendsController.swift */,
 				3FA2A9A11F93671B002E1FFB /* Assets.xcassets */,
 				3FA2A9A31F93671B002E1FFB /* LaunchScreen.storyboard */,
 				3FA2A9A61F93671B002E1FFB /* Info.plist */,
 				3FA2A99E1F93671B002E1FFB /* FBMessenger.xcdatamodeld */,
+				3FA2A9C81F93723F002E1FFB /* UIViewExtension.swift */,
 			);
 			path = FBMessenger;
 			sourceTree = "<group>";
@@ -237,7 +239,6 @@
 			files = (
 				3FA2A9A51F93671B002E1FFB /* LaunchScreen.storyboard in Resources */,
 				3FA2A9A21F93671B002E1FFB /* Assets.xcassets in Resources */,
-				3FA2A99D1F93671B002E1FFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA2A99A1F93671B002E1FFB /* ViewController.swift in Sources */,
+				3FA2A99A1F93671B002E1FFB /* FriendsController.swift in Sources */,
 				3FA2A9981F93671B002E1FFB /* AppDelegate.swift in Sources */,
+				3FA2A9C91F93723F002E1FFB /* UIViewExtension.swift in Sources */,
 				3FA2A9A01F93671B002E1FFB /* FBMessenger.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +302,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3FA2A99B1F93671B002E1FFB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FA2A99C1F93671B002E1FFB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3FA2A9A31F93671B002E1FFB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
